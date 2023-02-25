@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-%u-%rgpa$d#w^wd@^od-qgi^u5@+jm&u279f-rzp0ze=6%wgze
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'https://django-password-generator-production.up.railway.app']
 
 
 # Application definition
