@@ -74,10 +74,15 @@ WSGI_APPLICATION = 'django_password_generator.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'railway',
+        'USER':  'root',
+        'PASSWORD' : 'VRIFFGNby6xt6V6yLGSz', 
+        'HOST': 'containers-us-west-133.railway.app',
+        'PORT': '5791',
     }
 }
 
